@@ -2,40 +2,27 @@
 
 <html lang="en">
 <head>
-<meta name="viewport" content="width=device-width,
-initial-scale=1, shrink-to-fit=no">
-
-<title>Ciencia de la NASA | NASA en espa&#241;ol</title>
-<meta name="description" content="Mockup page for NASA en espa&#241;ol">
+<title>Ciencia de la NASA | NASA</title>
+<meta name="description" content ="Ciencia de la NASA">
+<link rel="shortcut icon" type="image/x-icon" href="icon01.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <!-- JQuery Script -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<!-- Bootstrap CSS -->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-
 <!-- Font Awesome CSS -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-
-<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700" rel="stylesheet">
-
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700|PT+Serif:400,400i,700" rel="stylesheet">
-
-
-<!-- Load c3.css -->
-   <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
-
-   <!-- Load our CSS -->
-   <link rel="stylesheet" href="style.css">
-
-   <!-- Load d3.js and c3.js -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+<!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<!--Main Stylesheet -->
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+  <div class="container">
   <div class="navbar">
-    <img class="navicon"><img src="logo01.jpg" width=40px;>
+    <div id="banner-icon"><img src="logo01.jpg" icon-only left class="icon"></div>
+    <div id=menu>
     <div class="dropdown">
       <button class="dropbtn">Misiones</button>
       <div class="dropdown-content">
@@ -73,13 +60,15 @@ initial-scale=1, shrink-to-fit=no">
         <a href="#">Para Los Medios</a>
         <a href="#">Para Educadores</a>
         <a href="#">Para Estudiantes</a></div></div>
+      <input type="text" placeholder="Buscar">
+      <i class="fa-fa-share-alt" aria-hidden="true"></i>
+    </div>
   </div>
 
 
-<div class="container">
-<div id="headline">Contenido Para NASA en Espa&#241;ol</div>
+  <h3>Dropdown Menu inside a Navigation Bar</h3>
+  <p>Hover over the "Dropdown" link to see the dropdown menu.</p>
 
-  <p class="introtext">Aqu&#237; hay contenido.</p>
-
-  </body>
+  </div>
+</body>
 </html>
