@@ -1,5 +1,4 @@
 .navbar {overflow: hidden;
-  background-color: transparent;
   font-family: 'Helvetica', arial, sans-serif;}
 
 .container {max-width: 2000px;
@@ -58,5 +57,14 @@ background-image: url("bg01.jpg");}
   margin-right: 16px;
   font-size: 1em;}
 
-#menu {text-align: center;
-margin-left: 50px;}
+.menu01 {text-align: center;
+margin-left: 50px;
+background-color: transparent;
+display: block;}
+.menu02 {font-size: .75em;
+font-family: 'Helvetica', arial, sans-serif;
+background-color: #4d4d4d;
+display: block;}
+.menu02 a {background-color: #4d4d4d;
+display: block;}
+.menu02 a:hover {background-color: #8c8c8c;}
